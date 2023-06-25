@@ -1,0 +1,477 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a i {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    line-height: 50px !important;
+}
+
+/* Start Global Style */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+hr {
+    width: 10%;
+    height: 3px;
+    color: #FF8B38;
+    background-color: #FF8B38;
+}
+
+.fot-fo-sz {
+    font-size: 15px;
+}
+
+.flo-rig {
+    float: right;
+}
+
+.main-pos {
+    position: relative;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.cus-width {
+    width: 30%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mai-bor-radius {
+    border-radius: 5px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.mar-top {
+    margin-top: 5%;
+}
+
+/* .mar-lef {
+    margin-left: 5%;
+} */
+
+.d-block {
+    display: block;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.marg-bo {
+    margin-bottom: 20%;
+}
+
+.sec-color {
+    color: white;
+}
+
+.sec2-color {
+    color: #FF8B38;
+}
+
+.main-bg {
+    background-color: white;
+}
+
+.sp-co {
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.UPER {
+    text-transform: uppercase;
+}
+
+.tex-alig {
+    text-align: center;
+}
+
+/* Start Global Style */
+
+/* Custum Style */
+/* Start Nav */
+nav {
+    background-color: #0E0E0E;
+    padding: 1% 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* 
+    position: fixed;
+    width: 100%; 
+    */
+}
+
+nav ul {
+    float: right;
+    width: 55%;
+}
+
+nav li {
+    margin-left: 11%;
+    font-size: 20px;
+}
+
+nav span {
+    text-transform: uppercase;
+}
+
+/* End Nav */
+
+/* Strt  interface section */
+.custom-style {
+    background-image: url(../image/761604053.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+h1 {
+    margin-top: 10%;
+}
+
+.overlay {
+    height: 100%;
+    background-color: #0e0e0e45;
+}
+
+.main-width {
+    width: 40%;
+    font-size: 20px;
+}
+
+.mar-b {
+    margin-bottom: 4%;
+}
+
+.custom-style .container hr {
+    width: 10%;
+    height: 3px;
+    color: white;
+    background-color: white;
+}
+
+.custom-style .container button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+
+.master-parent form {
+    margin-left: 24%;
+
+}
+
+.master-parent input {
+    display: block;
+    width: 80%;
+    margin: 10%;
+    border: 0;
+    border-bottom: .5px solid rgba(0, 0, 0, 0.205);
+
+}
+
+.master-parent .bg-color {
+    background-color: white;
+    border: 0;
+}
+
+.master-parent form .st-bu {
+    color: rgba(0, 0, 0, 0.584);
+    background-color: #FF8B38;
+    padding: 20px 35px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+
+.master-parent form h2 {
+    background-color: #eeeeeee2;
+    padding: 5px;
+    color: #0e0e0ed6;
+}
+
+/* End  interface section */
+/* Stat Icon-section Section  */
+.accesse-icon {
+    width: 41%;
+    float: right;
+}
+
+.shad-bg .accesse-icon i {
+    margin-left: 8%;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.shad-bg {
+    box-shadow: 0 2px 5px -3px #000000fc;
+    padding: 2% 0px;
+}
+
+/* end Icon-section Section */
+
+
+/* Start Section 2 */
+
+.sp-ma {
+    margin-top: 7%;
+}
+
+.sec-3 div p {
+    color: rgba(128, 128, 128, 0.607);
+    font-size: small;
+    width: 80%;
+}
+
+.img1 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* End Section 2 */
+
+/* Start Section 3 */
+.sp-div {
+    width: 15%;
+    margin: 10% 0 10% 0;
+}
+
+.sp-butt {
+    border: 0;
+    padding: 15%;
+    color: white;
+    border-bottom: .5px solid white;
+
+}
+
+.sp-butt {
+    background-color: #FF8B38;
+}
+
+.bg-color {
+    background-color: #0E0E0E;
+}
+
+.sp-co .pra {
+    font-weight: smaller;
+    color: #0e0e0e77;
+}
+
+.sp-butt2 {
+    padding: 12px 40px;
+    cursor: pointer;
+    background-color: #FF8B38;
+    border: 0;
+    cursor: pointer;
+}
+
+.img-2 {
+    -webkit-box-reflect: below;
+    width: 100%;
+    height: 130px;
+}
+
+.main-width2 {
+    width: 34%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+/* End Section 3 */
+
+/* Start Section 4 */
+
+.img-3 {
+    margin: -10% 0 15% 0%;
+    width: 75%;
+    vertical-align: middle;
+}
+
+.sec-4 .container {}
+
+
+.sec-4 .container .ico-sty {
+    color: #FF8B38;
+    vertical-align: top;
+    margin-right: 5%;
+    font-size: larger;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #FF8B38;
+}
+
+.sec-4 .container .mar-top {
+    margin: 5% 0;
+}
+
+/* End Section 4 */
+/* Satart Section 5 */
+.sec-5 .container hr {
+    margin: 2% 0 2% 47%;
+    width: 5%;
+}
+
+.sec-5 .container p {
+    margin-left: 10%;
+
+}
+
+.sec-5 .container h3 {
+    padding-top: 5%;
+}
+
+.sec-5 .feat i {
+    font-size: 30px;
+    color: #FF8B38;
+    margin-left: 47%;
+}
+
+.sec-5 .container {
+    height: 450px;
+}
+
+/* End Section 5 */
+
+/* Start Section 6 */
+
+.sec-6 {
+    background-image: url(../image/wide_sml_chicago-river-angie-mcmonigal-810-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    /* padding: 10% 0; */
+}
+
+.sec-6 h3 {
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+.sec-6 hr {
+    margin: 3% 0 3% 45%;
+}
+
+.sec-6 p {
+    margin: 3% 0 3% 0;
+    color: rgb(255, 255, 255) !important;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2PX;
+    line-height: 15px;
+    word-spacing: 10px;
+}
+
+.sec-6 button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+
+/* Ebd Section 6 */
+/* Start Section 7 */
+.sec-7 {
+    height: 500px;
+    width: 100%;
+}
+
+.sec-7 h3 {
+    font-size: 30px;
+}
+
+.sec-7 hr {
+    margin: 3% 0 3% 47%;
+    width: 5%;
+}
+
+.sec-7 p {
+    margin: 3% 0 3% 12%;
+    color: rgba(0, 0, 0, 0.363) !important;
+    font-size: 20px !important;
+}
+
+/* Ebd Section 7 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Footer */
+footer {
+    background-color: #0E0E0E;
+    width: 100%;
+    height: 30%;
+}
+
+footer .accesse-icon2 i {
+    margin: 2% 0 1% 3%;
+    color: #ffffff63;
+    font-size: 25px;
+}
+
+footer h2 {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #ffffffe9;
+}
+
+/* End Footer */

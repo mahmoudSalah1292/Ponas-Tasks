@@ -1,0 +1,76 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Global Style */
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.clean {
+    clear: both;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+
+/* Custom Style */
+nav {
+    background-color: blanchedalmond;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    float: right;
+    width: 40%;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.custom-height {
+    height: 500px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+.bg-beige {
+    background-color: beige;
+}
+.bg-aqua {
+    background-color: aqua;
+}
+.bg-brown {
+background-color: brown;
+}
+.bg-blue {
+background-color: blue;
+}
+
+
+.cus-div::before {
+    content: "\f099";
+    font-family: "Font Awesome 5 Brands";
+    font-size: 55px;
+}

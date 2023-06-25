@@ -1,0 +1,17 @@
+/* Mopail Screen */
+@media (max-width: 767px) {
+    nav {
+        width: 100%;
+    }
+    nav h2{
+        width: 50%;
+    }
+    nav ul{
+        width: 50%;
+    }
+    .display-none-med{
+        display: none;
+    }
+
+}
+

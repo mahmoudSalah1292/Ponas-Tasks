@@ -1,0 +1,93 @@
+/*  Start Globale Rols */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 30%;
+    /* display: inline-block; */
+    border: 1px solid #eee;
+    background-color: white;
+    /* margin-left: 3%; */
+    margin-top: 3%;
+    border-radius: 10px;
+    float: left;
+}
+
+
+.img-width {
+    width: 100%;
+}
+
+h2 {
+    color: rgb(23, 188, 188);
+    font-size: 20px;
+}
+
+hr {
+    margin: 2% 0;
+    width: 10%;
+    background-color: black;
+    height: 10px;
+}
+
+p {
+    padding-bottom: 10%;
+}
+
+.details {
+    margin-top: 3%;
+    padding-left: 3%;
+}
+
+.icon-details {
+    padding: 3%;
+}
+
+.span-Access {
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.icon-Access {
+    margin: 0 5%;
+}
+
+/* End Globale Rols */
+.span-color {
+    color: aqua;
+
+}
+
+.card1 {
+    background-image: url(../image/pexels-photo-3153198.jpeg);
+    background-repeat: no-repeat;
+    padding: 31%;
+
+}
+
+.overlay {
+    height: 100%;
+    background-color: #0E0E0E;
+    
+}
+
+.margin-Access {
+    margin: 0 2%;
+    margin-top: 3%;
+}
+
+a {
+    color: white;
+    font-size: 150%;
+    font-weight: bolder;
+    text-decoration: none;
+}

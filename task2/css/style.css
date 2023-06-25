@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(19, 175, 192);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card1,
+.card2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input,
+button,
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.i {
+
+    width: 500px;
+    height: 50px;
+
+}
+
+textarea {
+    width: 503px;
+    height: 88px;
+}
+
+button {
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+    border-style: solid rgb(79, 153, 6);
+    background-color: rgb(79, 153, 6);
+}
+
+.card2 {
+    padding-left: 160px;
+    color: white;
+    margin-left: 184px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.card2 span {
+    padding: 0;
+    margin: 0;
+    color: yellow;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.t {
+    display: inline-block;
+    width: 245px;
+    height: 60px;
+}
+.child {
+    margin-top: 100px;
+}

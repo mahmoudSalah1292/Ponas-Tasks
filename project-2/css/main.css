@@ -1,0 +1,490 @@
+/* Rest */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Goloble Roles */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.ali-itm {
+    align-items: flex-end;
+}
+
+.ali-itm2 {
+    align-items: flex-start;
+}
+
+.ali-itm-cn {
+    align-items: center;
+}
+
+.bg-co {
+    background-color: #333030;
+}
+
+.bg-co2 {
+    background-color: rgba(192, 11, 11, 0.112);
+}
+
+.co-1 {
+    color: rgba(255, 255, 255, 0.205);
+}
+
+.co-2 {
+    color: white;
+}
+
+.co-5 {
+    color: #808080e3;
+}
+
+.master-pos {
+    position: relative;
+}
+
+.main-pos {
+    position: absolute;
+}
+
+
+.co-3 {
+    color: black;
+}
+
+.co-4 {
+    color: blue;
+}
+
+.jus-spac-bett {
+    justify-content: space-between;
+}
+
+.jus-spac-aro {
+    justify-content: space-around;
+}
+
+.jus-co-cn {
+    justify-content: center;
+}
+
+.flex-flow {
+    flex-flow: row wrap;
+}
+
+.flex-flow2 {
+    flex-flow: row nowrap;
+}
+
+.flex-dir2 {
+    flex-direction: column;
+}
+
+.ali-co {
+    align-content: flex-start;
+}
+
+.tex-dec {
+    text-decoration: none;
+}
+
+.tex-alig {
+    text-align: center;
+}
+
+.bor-bot {
+    border-bottom: 2px solid rgba(16, 14, 14, 0.459);
+}
+
+.bor-bot2 {
+    border-bottom: 2px solid blue;
+}
+
+.bor-bot3 {
+    border-bottom: 2px solid #80808024;
+}
+
+.bor-left {
+    border-left: 2px solid #80808024;
+}
+
+.bor-top {
+    border-top: 3px solid #80808024;
+}
+
+.mar-to-bo-7 {
+    margin: 7% 0;
+}
+
+.mar-bo-3 {
+    margin-bottom: 3%;
+}
+
+.mar-3 {
+    margin: 3%;
+}
+
+.mar-bo-8 {
+    margin-bottom: 8%;
+}
+
+.mar-5 {
+    margin: 5% 2%;
+}
+
+.mar-4 {
+    margin: 2% 4%;
+}
+
+.mar-to-bo-3 {
+    margin: 3% 0;
+}
+
+.mar-lf-3 {
+    margin-left: 3%;
+}
+
+.wid-25 {
+    width: 25%;
+}
+
+.wid-30 {
+    width: 30%;
+}
+
+.wid-48 {
+    width: 48%;
+}
+
+.wid-65 {
+    width: 65%;
+}
+
+.wid-70 {
+    width: 70%;
+}
+
+.wid-75 {
+    width: 75%;
+}
+
+.wid-100 {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.bo-sha {
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.opact-hav {
+    opacity: .5;
+}
+
+hr {
+    height: 1px;
+    background-color: #80808024;
+    border: none;
+}
+
+/* End Goloble Roles */
+/* Start Nav */
+nav {
+    background-color: transparent;
+    padding: 1%;
+    position: fixed;
+    width: 100%;
+}
+
+.pad-bo {
+    padding-bottom: 2%;
+}
+
+.pad-top20 {
+    padding-top: 20px;
+}
+
+.pad-2 {
+    padding: 2%;
+}
+
+.pad-5 {
+    padding: 5%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-24 {
+    height: 24%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-px {
+    height: 285px;
+}
+
+.col-gab {
+    column-gap: 10px;
+}
+
+/* End Nav */
+.sec-1.cus-sec-1 {
+    background-image: url(../imag/165dc8f9-8c2f-4eab-99ac-eaf5950ea137.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.304);
+    width: 100%;
+    height: 100%;
+}
+
+.sec-1 .cus2-sec-1 span {
+    border: 4px solid rgba(192, 188, 188, 0.726);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    color: rgba(192, 188, 188, 0.61);
+    margin-right: 7%;
+    line-height: 40px;
+}
+
+.sec-1 .cus2-sec-1 {
+    font-size: larger;
+    color: white;
+}
+
+.sec-1 .cus2-sec-1 p {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+/* .sec-1 .cus2-sec-1 .cus-span:hover {
+    border: 4px;
+    border-color: blue blue blue rgba(192, 188, 188, 0.726);
+    border-style: solid;
+}  */
+.dv-ho:hover span {
+    border: 4px;
+    border-color: blue blue blue rgba(192, 188, 188, 0.726);
+    border-style: solid;
+}
+
+.dv-ho:hover {
+    opacity: 1;
+    color: white;
+}
+
+.spa-bor {
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+    bottom: -20px;
+    right: 0px;
+}
+
+.sec-2 .cus-sty {
+    padding: 4%;
+    font-size: 12px;
+}
+
+.sec-2 .cus-sty2 {
+    padding-left: 5%;
+    color: gray;
+    font-size: 10px;
+}
+
+.sec-2 .spcial {
+    margin: 5% 0 0 3%;
+}
+
+.sec-2 .cus-ico {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: gainsboro;
+    text-align: center;
+    border: 2px solid gainsboro;
+    font-size: 20px;
+    line-height: 2;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.sec-2 .cus-but {
+    top: 20px;
+    left: 30px;
+    padding: 2%;
+    color: blue;
+    background-color: white;
+    width: 84px;
+    height: 30px;
+    border: 0;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+/* Start Asaid */
+aside h2 {
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+aside p {
+    color: rgba(128, 128, 128, 0.486);
+    padding: 5%;
+    font-size: 14px;
+}
+
+.sec-2 aside .accesse-icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 2;
+    border: 1px solid #80808078;
+    color: #80808078;
+    font-size: 20px;
+
+}
+
+/* End Asaid */
+
+/* Start Section 3 */
+.sec-3 .card-1 {
+    background-image: url(../imag/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.sec-3 .card-2 {
+    background-image: url(../imag/images9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.sec-3 .card-3 {
+    background-image: url(../imag/images5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.sec-3 .cus-but {
+    bottom: calc(100% - 55px);
+    right: calc(100% - 235px);
+    padding: 2%;
+    color: blue;
+    background-color: white;
+    width: 84px;
+    height: 30px;
+    border: 0;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.sec-3 {
+    height: 300px;
+}
+
+.sec-3 h3 {
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+.sec-3 p {
+    padding: 5%;
+    color: gray;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+/* End Section 3 */
+/* start End-button */
+.but-end button {
+    background-color: transparent;
+    width: 130px;
+    height: 50px;
+    border: 1px solid rgb(149 143 143 / 56%);
+    border-radius: 25px;
+    color: rgb(149 143 143 / 56%);
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+/* End End-button */
+/* Start Foter */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .container>div {
+    height: 200px;
+}
+
+footer input {
+    width: 70%;
+    border: 0;
+    background-color: transparent;
+    border-bottom: .5px solid gray;
+    margin-top: 5%;
+}
+
+footer input::placeholder {
+    color: gray;
+    font-family: cursive;
+}
+
+
+body a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333030;
+    color: white;
+    position: fixed;
+    font-size: 25px;
+    line-height: 2 !important;
+    bottom: 20px;
+    right: 25px;
+    text-align: center;
+}
+/* End Foter */
